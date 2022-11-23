@@ -40,6 +40,6 @@ Dialy I work in 3 Blockks as shwown above.
 ### 9. Contribute to opensource 
 ### 10. Build a Simple Web3 app with ReactJS
 
-Todya is 23/11/2022 I havent still started  the challege 
+Today is 23/11/2022 I havent still started  the challege 
 
 
