@@ -43,5 +43,9 @@ Dialy I work in 3 Blockks as shwown above.
 Today is 23/11/2022 I havent still started  the challenge 
 ## 23/11/2022 to 3/3/2023 
 ## I will code everyday
+## Day1
+- I created a ERC20 token. the token name is RogToken. It has multiple functions.
+- Next 3-4 days I will write nemorious smart contrcats and then afte that i will code a front end usimg reactJS
+ 
 
 

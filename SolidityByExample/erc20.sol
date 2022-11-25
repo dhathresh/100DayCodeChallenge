@@ -26,13 +26,10 @@ contract ERC20 is IERC20 {
     string public name= "RogToken";
     string public symbol = "ROG"; 
     uint8 public decimals = 18; //decimals of the token we are creating
-    address public  owner1= msg.sender;
-
-
 
     function transfer(address recipient, uint amount) external returns (bool){
         //tranfer form msg.sender to recipent
-        balance(owner1) -= amount;
+        balance(msg.sender) -= amount;
         balance(recipient) +=amount;
         emit Transfer(msg.sender, recipient, amount);
         return true; // this means the call to function was successful
@@ -68,8 +65,5 @@ contract ERC20 is IERC20 {
         totalsupply -= amount;
         emit Transfer(msg.sender, address(0), amount); 
     }
-
-
-
-
 }
+
